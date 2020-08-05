@@ -6,7 +6,7 @@ describe('utils test', () => {
       expect(math.add(1,2)).toBe(3);
     });
 
-    test('shoud be -3 when subtracting 2 from 1', () =>
+    test('shoud be -3 when subtracting 2 from 1', () => {
       expect(math.subtract(1, 2)).toBe(-1);
     });
   });
