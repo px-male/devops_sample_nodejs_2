@@ -6,7 +6,7 @@ node {
   }
 
   stage('Build image') {
-    app = docker.build('px-male/devops_sample_nodejs')
+    app = docker.build('px-male/devops_sample_nodejs_2')
   }
 
   stage('Test') {
